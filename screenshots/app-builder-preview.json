@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "SocialFlow",
+      "hasCanvas": false,
+      "bodyTextLen": 1459,
+      "bodyTextHash": "11ffdc73e3320569dec41fc3ebfd4ab1ddcd5339ccf3f74b983502e875c0eb21",
+      "bodyTextPrefix": "SocialFlow Pricing Plan. Publish. Grow. One desk for every brand",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "SocialFlow",
+      "hasCanvas": false,
+      "bodyTextLen": 1451,
+      "bodyTextHash": "bc51463e3c1878bb9ab331ac6f8bc39faecde6d8eeeceb6d513c741453691a27",
+      "bodyTextPrefix": "SocialFlow Plan. Publish. Grow. One desk for every brand you pos",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
