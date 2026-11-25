@@ -92,13 +92,12 @@ npm run build
 
 ## Repository
 
-This tree is the application. It is not pushed anywhere until you add a remote and push it:
+Source: [github.com/bia-studio18/SocialFlow](https://github.com/bia-studio18/SocialFlow)
 
 ```bash
-git init
-git add .
-git commit -m "Add SocialFlow"
-git branch -M main
-git remote add origin git@github.com:YOUR_USER/socialflow.git
-git push -u origin main
+git clone https://github.com/bia-studio18/SocialFlow.git
+cd SocialFlow
+npm install
+npm run dev
 ```
+
