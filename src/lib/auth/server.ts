@@ -91,7 +91,10 @@ export const authConfigured =
 // it derives the origin per-request from the (proxied) host, validated against the
 // preview allowlist, which makes the OAuth `redirect_uri` the concrete preview URL
 // the broker's preview client accepts.
-const explicitBaseURL = env("BETTER_AUTH_URL");
+// Production origin fallback for this SocialFlow deployment. Override with
+// BETTER_AUTH_URL when deploying to another domain or for local development.
+const explicitBaseURL =
+  env("BETTER_AUTH_URL") ?? "https://social-flow-alpha.vercel.app";
 // Explicit `string[]` (not a readonly tuple) — Better Auth's DynamicBaseURLConfig
 // requires a mutable `allowedHosts: string[]`.
 const previewAllowedHosts: string[] = [...PREVIEW_ALLOWED_HOSTS];
